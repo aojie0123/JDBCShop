@@ -7,23 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6b85000-18b7-4b87-9f70-5efef7d3e6b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/imooc/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/imooc/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/imooc/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/imooc/dao/impl/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/imooc/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/imooc/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/imooc/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/imooc/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/imooc/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/imooc/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/imooc/web/action/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/imooc/web/action/UserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/admin/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/admin/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shop/com/imooc/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shop/com/imooc/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shop/com/imooc/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shop/com/imooc/dao/impl/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shop/com/imooc/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shop/com/imooc/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shop/com/imooc/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shop/com/imooc/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shop/com/imooc/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shop/com/imooc/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shop/com/imooc/web/action/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shop/com/imooc/web/action/UserServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/imooc/web/action/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/web/action/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/category_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/category_list.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,17 +25,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/imooc/web/action/UserServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="844">
+              <caret line="75" column="74" selection-start-line="75" selection-start-column="74" selection-end-line="75" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/admin/login.jsp">
+        <entry file="file://$PROJECT_DIR$/web/admin/category_list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="25" column="51" lean-forward="true" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+            <state relative-caret-position="825">
+              <caret line="126" column="5" lean-forward="true" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -83,6 +68,7 @@
         <option value="$PROJECT_DIR$/src/com/imooc/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/dao/impl/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/web/admin/login.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/category_list.jsp" />
         <option value="$PROJECT_DIR$/src/com/imooc/web/action/UserServlet.java" />
       </list>
     </option>
@@ -344,17 +330,26 @@
       <workItem from="1557046216227" duration="54000" />
       <workItem from="1557046289765" duration="1279000" />
       <workItem from="1557047646715" duration="2756000" />
-      <workItem from="1557114676865" duration="2334000" />
+      <workItem from="1557114676865" duration="2833000" />
     </task>
+    <task id="LOCAL-00001" summary="login redirect">
+      <created>1557119285867</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557119285868</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8650000" />
+    <option name="totallyTimeSpent" value="9149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994641" visible="true" weight="0.12899786" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994641" visible="true" weight="0.12899786" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -365,13 +360,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3290461" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39914164" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.39914164" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -390,6 +385,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="login redirect" />
+    <option name="LAST_COMMIT_MESSAGE" value="login redirect" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/admin/left.jsp">
@@ -538,14 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/header.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/category_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/admin/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -553,10 +544,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/header.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/category_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="126" column="5" lean-forward="true" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/imooc/web/action/UserServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="844">
+          <caret line="75" column="74" selection-start-line="75" selection-start-column="74" selection-end-line="75" selection-end-column="74" />
         </state>
       </provider>
     </entry>

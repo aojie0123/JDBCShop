@@ -26,6 +26,8 @@ public class UserServlet extends HttpServlet {
         //  判断
         if ("login".equals(method)) {
             login(request, response);
+        } else if ("logout".equals(method)) {
+            logout(request, response);
         }
     }
 
@@ -58,5 +60,19 @@ public class UserServlet extends HttpServlet {
             request.getSession().setAttribute("existUser", existUser);
             response.sendRedirect(request.getContextPath() + "/admin/category_list.jsp");
         }
+    }
+
+    /**
+     * UserServlet 中的登录方法
+     * @param request
+     * @param response
+     * @throws ServletException
+     * @throws IOException
+     */
+    private void logout(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        //  将SESSION销毁
+        request.getSession().invalidate();
+        //  页面跳转到登录页
+        response.sendRedirect(request.getContextPath() + "/admin/login.jsp");
     }
 }
