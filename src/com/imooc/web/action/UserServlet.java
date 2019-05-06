@@ -40,7 +40,6 @@ public class UserServlet extends HttpServlet {
         //  接收用户名密码
         String username = request.getParameter("username");
         String password = request.getParameter("password");
-        System.out.println(username + "   " + password);
         //  数据的封装
         User user = new User();
         user.setUsername(username);
