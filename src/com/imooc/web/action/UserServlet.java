@@ -34,7 +34,7 @@ public class UserServlet extends HttpServlet {
      * @param request
      * @param response
      */
-    private void login(HttpServletRequest request, HttpServletResponse response) {
+    private void login(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //  接收用户名密码
         String username = request.getParameter("username");
         String password = request.getParameter("password");
@@ -49,8 +49,14 @@ public class UserServlet extends HttpServlet {
         //  根据处理结果，完成页面跳转
         if (existUser == null) {
             //  登录失败
+            //  返回到登录页
+            request.setAttribute("msg", "用户名密码错误");
+            request.getRequestDispatcher("/admin/login.jsp").forward(request,response);
         } else {
             //  登录成功
+            //  将用户信息进行保存，然后进行页面跳转
+            request.getSession().setAttribute("existUser", existUser);
+            response.sendRedirect(request.getContextPath() + "/admin/category_list.jsp");
         }
     }
 }
