@@ -13,4 +13,6 @@ public interface CategoryDao {
     Category findOne(Integer cid);
 
     void update(Category category);
+
+    void delete(Integer cid);
 }

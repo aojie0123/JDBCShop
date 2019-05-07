@@ -32,6 +32,8 @@ public class CategoryServlet extends HttpServlet {
             edit(request, response);
         } else if ("update".equals(method)) {
             update(request, response);
+        } else if ("del".equals(method)) {
+            delete(request, response);
         }
     }
 
@@ -76,8 +78,10 @@ public class CategoryServlet extends HttpServlet {
     }
 
     private void update(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        request.setCharacterEncoding("UTF-8");
+//        request.setCharacterEncoding("UTF-8");
         Integer cid = Integer.parseInt(request.getParameter("cid"));
+//        String cname = new String(request.getParameter("cname").getBytes("iso-8859-1"), "utf-8");
+//        String cdesc = new String(request.getParameter("cdesc").getBytes("iso-8859-1"), "utf-8");
         String cname = request.getParameter("cname");
         String cdesc = request.getParameter("cdesc");
 
@@ -86,6 +90,13 @@ public class CategoryServlet extends HttpServlet {
         CategoryService categoryService = new CategoryServiceImpl();
         categoryService.update(category);
 
+        response.sendRedirect(request.getContextPath() + "/CategoryServlet?method=findAll");
+    }
+
+    private void delete(HttpServletRequest request,HttpServletResponse response) throws IOException {
+        Integer cid = Integer.parseInt(request.getParameter("cid"));
+        CategoryService categoryService = new CategoryServiceImpl();
+        categoryService.delete(cid);
         response.sendRedirect(request.getContextPath() + "/CategoryServlet?method=findAll");
     }
 }
