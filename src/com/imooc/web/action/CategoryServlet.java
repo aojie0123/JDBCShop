@@ -26,6 +26,12 @@ public class CategoryServlet extends HttpServlet {
             findAll(request, response);
         } else if ("saveUI".equals(method)) {
             saveUI(request, response);
+        } else if ("save".equals(method)) {
+            save(request, response);
+        } else if ("edit".equals(method)) {
+            edit(request, response);
+        } else if ("update".equals(method)) {
+            update(request, response);
         }
     }
 
@@ -42,5 +48,44 @@ public class CategoryServlet extends HttpServlet {
 
     private void saveUI(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.getRequestDispatcher("/admin/category_add.jsp").forward(request, response);
+    }
+
+    private void save(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String cname = new String(request.getParameter("cname").getBytes("iso-8859-1"), "utf-8");
+        String cdesc = request.getParameter("cdesc");
+
+        //  数据封装
+        Category category = new Category();
+        category.setCname(cname);
+        category.setCdesc(cdesc);
+
+        //  调用业务层处理数据
+        CategoryService categoryService = new CategoryServiceImpl();
+        categoryService.save(category);
+
+        //  页面跳转
+        request.getRequestDispatcher(request.getContextPath() + "/CategoryServlet?method=findAll").forward(request, response);
+    }
+
+    private void edit(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        Integer cid = Integer.parseInt(request.getParameter("cid"));
+        CategoryService categoryService = new CategoryServiceImpl();
+        Category category = categoryService.findOne(cid);
+        request.setAttribute("category", category);
+        request.getRequestDispatcher("/admin/category_update.jsp").forward(request, response);
+    }
+
+    private void update(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        request.setCharacterEncoding("UTF-8");
+        Integer cid = Integer.parseInt(request.getParameter("cid"));
+        String cname = request.getParameter("cname");
+        String cdesc = request.getParameter("cdesc");
+
+        Category category = new Category(cid, cname, cdesc);
+        System.out.println(category.toString());
+        CategoryService categoryService = new CategoryServiceImpl();
+        categoryService.update(category);
+
+        response.sendRedirect(request.getContextPath() + "/CategoryServlet?method=findAll");
     }
 }

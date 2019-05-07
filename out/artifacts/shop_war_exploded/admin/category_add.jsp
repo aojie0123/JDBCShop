@@ -31,7 +31,8 @@
         </div>
         <div class="admin-form theme-primary mw1000 center-block" style="padding-bottom: 175px;">
             <div class="panel heading-border">
-                <form id="admin-form" name="addForm" action="/department/add" method="post">
+                <form id="admin-form" name="addForm" action="${pageContext.request.contextPath}/CategoryServlet" method="post">
+                    <input type="hidden" name="method" value="save">
                     <div class="panel-body bg-light">
                         <div class="section-divider mt20 mb40">
                             <span> 基本信息 </span>
@@ -49,7 +50,7 @@
                             </div>
                             <div class="col-md-6">
                                 <label for="sn" class="field">
-                                    <input id="sn" name="sn" class="gui-input" placeholder="名称" type="text" value="imooc"/>
+                                    <input id="sn" name="cname" class="gui-input" placeholder="名称" type="text" value=""/>
                                 </label>
                             </div>
                         </div>
@@ -65,7 +66,7 @@
                             </div>
 							<div class="col-md-6">
 								<label for="address" class="field">
-									<input id="address" name="address" class="gui-input" placeholder="描述" type="text" value=""/>
+									<input id="address" name="cdesc" class="gui-input" placeholder="描述" type="text" value=""/>
 								</label>
 							</div>
                         </div>

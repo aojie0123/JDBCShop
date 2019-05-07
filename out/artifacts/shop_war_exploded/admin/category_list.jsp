@@ -76,7 +76,7 @@
                                 <td>${category.cname}</td>
                                 <td>${category.cdesc}</td>
                                 <td>
-                                    <a href="#">编辑</a>
+                                    <a href="${pageContext.request.contextPath}/CategoryServlet?method=edit&cid=${category.cid}">编辑</a>
                                     <a href="#">删除</a>
                                 </td>
                             </tr>
