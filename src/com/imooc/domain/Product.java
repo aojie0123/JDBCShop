@@ -1,20 +1,19 @@
 package com.imooc.domain;
 
 public class Product {
-
     private Integer pid;
     private String pname;
     private String author;
-    private double price;
+    private Double price;
     private String description;
     private String filename;
     private String path;
-    private Integer cid;
+    private Category category = new Category();
 
     public Product() {
     }
 
-    public Product(Integer pid, String pname, String author, double price, String description, String filename, String path, Integer cid) {
+    public Product(Integer pid, String pname, String author, Double price, String description, String filename, String path, Category category) {
         this.pid = pid;
         this.pname = pname;
         this.author = author;
@@ -22,7 +21,7 @@ public class Product {
         this.description = description;
         this.filename = filename;
         this.path = path;
-        this.cid = cid;
+        this.category = category;
     }
 
     public Integer getPid() {
@@ -49,11 +48,11 @@ public class Product {
         this.author = author;
     }
 
-    public double getPrice() {
+    public Double getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(Double price) {
         this.price = price;
     }
 
@@ -81,12 +80,12 @@ public class Product {
         this.path = path;
     }
 
-    public Integer getCid() {
-        return cid;
+    public Category getCategory() {
+        return category;
     }
 
-    public void setCid(Integer cid) {
-        this.cid = cid;
+    public void setCategory(Category category) {
+        this.category = category;
     }
 
     @Override
@@ -99,7 +98,7 @@ public class Product {
                 ", description='" + description + '\'' +
                 ", filename='" + filename + '\'' +
                 ", path='" + path + '\'' +
-                ", cid=" + cid +
+                ", category=" + category +
                 '}';
     }
 }

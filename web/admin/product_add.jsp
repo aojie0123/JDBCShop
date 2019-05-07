@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 
@@ -31,7 +32,7 @@
         </div>
         <div class="admin-form theme-primary mw1000 center-block" style="padding-bottom: 175px;">
             <div class="panel heading-border">
-                <form id="admin-form" name="addForm" action="/employee/update" method="post">
+                <form id="admin-form" name="addForm" action="${pageContext.request.contextPath}/ProductServlet?method=save" method="post" enctype="multipart/form-data">
                     <div class="panel-body bg-light">
                         <div class="section-divider mt20 mb40">
                             <span> 基本信息 </span>
@@ -47,7 +48,23 @@
                             </div>
                             <div class="col-md-6">
                                 <label for="sn" class="field">
-                                    <input id="sn" name="sn" class="gui-input" placeholder="名称" type="text" value="imooc"/>
+                                    <input name="pname" class="gui-input" placeholder="名称" type="text" value=""/>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="section row">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-1">
+                                <label for="sn" class="field prepend-icon">
+                                    <label for="sn" class="field-icon">
+                                        作者
+                                    </label>
+                                </label>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="sn" class="field">
+                                    <input name="author" class="gui-input" placeholder="作者" type="text" value=""/>
+
                                 </label>
                             </div>
                         </div>
@@ -62,7 +79,7 @@
                             </div>
                             <div class="col-md-6">
                                 <label for="sn" class="field">
-                                    <input id="sn" name="sn" class="gui-input" placeholder="1000" type="text" value="1000"/>
+                                    <input name="price" class="gui-input" placeholder="价格" type="text" value=""/>
                                     
                                 </label>
                             </div>
@@ -78,7 +95,11 @@
                             </div>
                             <div class="col-md-6">
                                 <label for="sn" class="field select">
-                                    <select id="departmentSn" name="departmentSn" class="gui-input" placeholder="分类..."><option value="10001" selected="selected">分类一</option><option value="10002">财务部</option><option value="10003">事业部</option></select>
+                                    <select id="departmentSn" name="cid" class="gui-input" placeholder="分类...">
+                                        <c:forEach var="category" items="${categoryList}">
+                                            <option value="${category.cid}">${category.cname}</option>
+                                        </c:forEach>
+                                    </select>
                                     <i class="arrow double"></i>
                                 </label>
                             </div>
@@ -94,7 +115,7 @@
                             </div>
                             <div class="col-md-6">
                                 <label for="name" class="field">
-                                    <input id="name" name="name" class="gui-input" placeholder="价格" type="file" value="上传图片"/>
+                                    <input name="filename" class="gui-input" type="file"/>
                                 </label>
                             </div>
                         </div>						
@@ -109,7 +130,7 @@
                             </div>
 							<div class="col-md-6">
 								<label for="address" class="field">
-									<input id="address" name="address" class="gui-input" placeholder="描述" type="text" value=""/>
+									<input id="address" name="description" class="gui-input" placeholder="描述" type="text" value=""/>
 								</label>
 							</div>
                         </div>

@@ -33,7 +33,7 @@
             <div class="panel heading-border">
                 <form id="admin-form" name="addForm" action="${ pageContext.request.contextPath }/CategoryServlet" method="post">
                     <input type="hidden" name="method" value="update">
-                    <input type="hidden" name="cid" value="${category.cid}">
+                    <input type="hidden" name="category" value="${category.category}">
                     <div class="panel-body bg-light">
                         <div class="section-divider mt20 mb40">
                             <span> 基本信息 </span>
