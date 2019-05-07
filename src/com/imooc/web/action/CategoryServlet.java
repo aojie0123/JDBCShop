@@ -24,18 +24,23 @@ public class CategoryServlet extends HttpServlet {
         if ("findAll".equals(method)) {
             //  查询所有分类
             findAll(request, response);
+        } else if ("saveUI".equals(method)) {
+            saveUI(request, response);
         }
     }
 
-    private void findAll(HttpServletRequest request, HttpServletResponse response) {
+    private void findAll(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //  接收参数
         //  封装数据
         //  调用业务层处理数据
         //  页面跳转
         CategoryService categoryService = new CategoryServiceImpl();
         List<Category> list = categoryService.findAll();
-        for (Category category : list) {
-            System.out.println(category.toString());
-        }
+        request.setAttribute("list", list);
+        request.getRequestDispatcher("/admin/category_list.jsp").forward(request, response);
+    }
+
+    private void saveUI(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.getRequestDispatcher("/admin/category_add.jsp").forward(request, response);
     }
 }

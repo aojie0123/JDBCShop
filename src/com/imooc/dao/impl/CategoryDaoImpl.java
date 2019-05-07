@@ -7,6 +7,7 @@ import com.imooc.utils.JDBCUtils;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.util.ArrayList;
 import java.util.List;
 
 public class CategoryDaoImpl implements CategoryDao {
@@ -15,7 +16,7 @@ public class CategoryDaoImpl implements CategoryDao {
         Connection con = null;
         PreparedStatement pstm = null;
         ResultSet rs = null;
-        List<Category> list = null;
+        List<Category> list = new ArrayList<Category>();
         try {
             con = JDBCUtils.getConnection();
             String sql = "SELECT * FROM category";
