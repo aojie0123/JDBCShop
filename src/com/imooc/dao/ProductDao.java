@@ -19,4 +19,8 @@ public interface ProductDao {
     List<Product> finByCid(Integer cid);
 
     void update(Connection con, Product product);
+
+    List<Product> findByPage(int begin, int limit);
+
+    int findCount();
 }

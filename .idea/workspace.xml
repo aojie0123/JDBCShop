@@ -7,36 +7,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6b85000-18b7-4b87-9f70-5efef7d3e6b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/imooc/web/filter/PrivilegeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/imooc/domain/PageBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/imooc/web/action/IndexServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/image/MG_details_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/image/MG_details_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/image/MG_login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/image/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/image/hongmofangde wuhui.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/image/index_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/image/login_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/image/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/image/richuyinxing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/image/songshulinzhicheng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/image/welcome.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/image/wen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/image/wudaojiaoshi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/image/wumingnvlang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/js/js1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/shop/com/imooc/web/action/IndexServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/domain/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/web/action/IndexServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/MG_details_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/MG_details_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/MG_login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/hongmofangde wuhui.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/index_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/login_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/richuyinxing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/songshulinzhicheng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/welcome.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/wen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/wudaojiaoshi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/image/wumingnvlang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/js1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/imooc/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/imooc/dao/ProductDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/imooc/dao/impl/ProductDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/imooc/dao/impl/ProductDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/imooc/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/imooc/service/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/imooc/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/imooc/service/impl/CategoryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/imooc/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/imooc/service/impl/ProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/imooc/utils/UploadUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/imooc/utils/UploadUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/imooc/web/action/ProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/WEB-INF/classes/com/imooc/web/action/ProductServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/admin/product_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/admin/product_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/upload/a9df8661fe0743948588dbabd366cd9c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shop/com/imooc/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shop/com/imooc/dao/ProductDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shop/com/imooc/dao/impl/ProductDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shop/com/imooc/dao/impl/ProductDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shop/com/imooc/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shop/com/imooc/service/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shop/com/imooc/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shop/com/imooc/service/impl/CategoryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shop/com/imooc/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shop/com/imooc/service/impl/ProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shop/com/imooc/utils/UploadUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shop/com/imooc/utils/UploadUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shop/com/imooc/web/action/ProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shop/com/imooc/web/action/ProductServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/imooc/dao/CategoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/dao/CategoryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shop_war_exploded/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/imooc/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/dao/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/imooc/dao/impl/CategoryDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/dao/impl/CategoryDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/imooc/dao/impl/ProductDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/dao/impl/ProductDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/imooc/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/imooc/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/service/impl/CategoryServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/imooc/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/imooc/utils/UploadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/utils/UploadUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/imooc/web/action/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/web/action/ProductServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/imooc/web/action/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/web/action/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/product_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/product_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,37 +65,74 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/imooc/service/impl/CategoryServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/com/imooc/web/action/IndexServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
+            <state relative-caret-position="247">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#!!doc;n#jsp:root#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/imooc/dao/CategoryDao.java">
+        <entry file="file://$PROJECT_DIR$/src/com/imooc/domain/PageBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+            <state>
+              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#747#748#0" expanded="true" />
+                <element signature="e#794#795#0" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
+                <element signature="e#868#869#0" expanded="true" />
+                <element signature="e#895#896#0" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
+                <element signature="e#968#969#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/imooc/dao/impl/CategoryDaoImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/com/imooc/service/ProductService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="119" column="28" lean-forward="true" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="28" />
+            <state relative-caret-position="285">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/imooc/service/impl/ProductServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#522#532#0" expanded="true" />
+                <element signature="e#1196#1205#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,8 +141,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/imooc/dao/ProductDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="399">
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/admin/product_add.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="32" column="67" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -99,30 +159,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/imooc/dao/impl/ProductDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="170" column="45" lean-forward="true" selection-start-line="170" selection-start-column="45" selection-end-line="170" selection-end-column="45" />
+            <state relative-caret-position="716">
+              <caret line="181" column="8" lean-forward="true" selection-start-line="181" selection-start-column="8" selection-end-line="181" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5186#5195#0" expanded="true" />
+                <element signature="e#6956#6957#0" expanded="true" />
+                <element signature="e#6983#6984#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/imooc/web/filter/PrivilegeFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/imooc/web/action/UserServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="74" column="58" selection-start-line="74" selection-start-column="58" selection-end-line="74" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -167,18 +210,21 @@
         <option value="$PROJECT_DIR$/web/admin/product_add.jsp" />
         <option value="$PROJECT_DIR$/web/admin/product_update.jsp" />
         <option value="$PROJECT_DIR$/web/admin/product_list.jsp" />
-        <option value="$PROJECT_DIR$/src/com/imooc/service/ProductService.java" />
-        <option value="$PROJECT_DIR$/src/com/imooc/service/impl/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/web/action/ProductServlet.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/utils/UploadUtils.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/service/impl/CategoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/dao/CategoryDao.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/dao/impl/CategoryDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/imooc/dao/ProductDao.java" />
-        <option value="$PROJECT_DIR$/src/com/imooc/dao/impl/ProductDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/web/filter/PrivilegeFilter.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/web/action/UserServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/web/action/IndexServlet.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/com/imooc/domain/PageBean.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/dao/impl/ProductDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/dao/ProductDao.java" />
       </list>
     </option>
   </component>
@@ -210,43 +256,6 @@
               <item name="JDBCShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="JDBCShop" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JDBCShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JDBCShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JDBCShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JDBCShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JDBCShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JDBCShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JDBCShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JDBCShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JDBCShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JDBCShop" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JDBCShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JDBCShop" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -259,7 +268,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -273,11 +282,11 @@
       <recent name="D:\IntelliJ IDEA 2018.2.5\Project\JDBCShop\out\artifacts\shop_war_exploded\shop" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IntelliJ IDEA 2018.2.5\Project\JDBCShop\web" />
       <recent name="D:\IntelliJ IDEA 2018.2.5\Project\shop\src" />
       <recent name="D:\IntelliJ IDEA 2018.2.5\Project\shop\src\com\imooc\utils" />
       <recent name="D:\IntelliJ IDEA 2018.2.5\Project\shop\web\WEB-INF\lib" />
       <recent name="D:\IntelliJ IDEA 2018.2.5\Project\shop\lib" />
-      <recent name="D:\IntelliJ IDEA 2018.2.5\Project\shop\web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -294,7 +303,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.12" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/shop/CategoryServlet?method=findAll" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/shop/IndexServlet" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
@@ -464,7 +473,7 @@
       <workItem from="1557217440876" duration="172000" />
       <workItem from="1557217640118" duration="101000" />
       <workItem from="1557217767764" duration="5094000" />
-      <workItem from="1557276896876" duration="8436000" />
+      <workItem from="1557276896876" duration="15434000" />
     </task>
     <task id="LOCAL-00001" summary="login redirect">
       <created>1557119285867</created>
@@ -508,15 +517,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557222648689</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="catrgory complete">
+      <created>1557285604066</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1557285604066</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44094000" />
+    <option name="totallyTimeSpent" value="51092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49534163" visible="true" weight="0.13646056" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -525,11 +540,11 @@
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" sideWeight="0.5046584" side_tool="true" visible="true" weight="0.13646056" />
+      <window_info id="Web" order="7" sideWeight="0.5046584" side_tool="true" weight="0.13646056" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32832617" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32832617" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" visible="true" weight="0.3090129" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.3090129" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -698,13 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/product_add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="34" column="122" selection-start-line="34" selection-start-column="122" selection-end-line="34" selection-end-column="122" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/admin/product_update.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -716,13 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="85" column="126" selection-start-line="85" selection-start-column="126" selection-end-line="85" selection-end-column="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -763,16 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/service/impl/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/imooc/dao/CategoryDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -786,7 +777,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/imooc/dao/impl/CategoryDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
-          <caret line="119" column="28" lean-forward="true" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="28" />
+          <caret line="119" column="28" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#522#532#0" expanded="true" />
@@ -804,24 +795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/dao/ProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/dao/impl/ProductDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="170" column="45" lean-forward="true" selection-start-line="170" selection-start-column="45" selection-end-line="170" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5186#5195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/imooc/web/filter/PrivilegeFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -831,8 +804,105 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/imooc/web/action/UserServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
+        <state relative-caret-position="1178">
           <caret line="74" column="58" selection-start-line="74" selection-start-column="58" selection-end-line="74" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="156" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/web/action/IndexServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc;n#jsp:root#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/domain/PageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+          <folding>
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/dao/impl/ProductDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="181" column="8" lean-forward="true" selection-start-line="181" selection-start-column="8" selection-end-line="181" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6956#6957#0" expanded="true" />
+            <element signature="e#6983#6984#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1196#1205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/product_add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="32" column="67" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
         </state>
       </provider>
     </entry>

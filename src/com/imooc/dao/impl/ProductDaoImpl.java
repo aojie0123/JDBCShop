@@ -176,4 +176,9 @@ public class ProductDaoImpl implements ProductDao {
             JDBCUtils.release(pstm, con);
         }
     }
+
+    @Override
+    public List<Product> findByPage(int begin, int limit) {
+        return null;
+    }
 }
