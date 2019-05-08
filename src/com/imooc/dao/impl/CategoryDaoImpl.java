@@ -113,4 +113,20 @@ public class CategoryDaoImpl implements CategoryDao {
             JDBCUtils.release(rs, pstm, con);
         }
     }
+
+    @Override
+    public void delete(Connection con, Integer cid) {
+        PreparedStatement pstm = null;
+        ResultSet rs = null;
+        try {
+            String sql = "DELETE FROM category WHERE cid=?";
+            pstm = con.prepareStatement(sql);
+            pstm.setInt(1, cid);
+            pstm.executeUpdate();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            JDBCUtils.release(rs, pstm, con);
+        }
+    }
 }

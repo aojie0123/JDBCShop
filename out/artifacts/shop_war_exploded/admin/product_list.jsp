@@ -83,7 +83,7 @@
 								<td>${product.description}</td>
                                 <td>
                                     <a href="${pageContext.request.contextPath}/ProductServlet?method=edit&pid=${product.pid}">编辑</a>
-                                    <a href="#">删除</a>
+                                    <a href="${pageContext.request.contextPath}/ProductServlet?method=delete&pid=${product.pid}">删除</a>
                                 </td>
                             </tr>
                         </c:forEach>

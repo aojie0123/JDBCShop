@@ -5,6 +5,7 @@ import com.imooc.dao.impl.ProductDaoImpl;
 import com.imooc.domain.Product;
 import com.imooc.service.ProductService;
 
+import java.io.File;
 import java.util.List;
 
 public class ProductServiceImpl implements ProductService {
@@ -30,5 +31,11 @@ public class ProductServiceImpl implements ProductService {
     public void update(Product product) {
         ProductDao productDao = new ProductDaoImpl();
         productDao.update(product);
+    }
+
+    @Override
+    public void delete(Integer pid) {
+        ProductDao productDao = new ProductDaoImpl();
+        productDao.delete(pid);
     }
 }

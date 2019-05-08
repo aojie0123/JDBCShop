@@ -13,6 +13,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.File;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
@@ -36,7 +37,29 @@ public class ProductServlet extends HttpServlet {
             edit(request, response);
         } else if ("update".equals(method)) {
             update(request, response);
+        } else if ("delete".equals(method)) {
+            delete(request, response);
         }
+    }
+
+    private void delete(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        Integer pid = Integer.parseInt(request.getParameter("pid"));
+        ProductService productService = new ProductServiceImpl();
+        Product product = productService.findOne(pid);
+        String path = product.getPath();
+
+        if (path != null && !"".equals(path)) {
+            String realPath = this.getServletContext().getRealPath(path);
+            System.out.println(realPath);
+            File file = new File(realPath);
+            if (file.exists()) {
+                System.out.println("get in");
+                file.delete();
+            }
+        }
+
+        productService.delete(pid);
+        response.sendRedirect(request.getContextPath() + "/ProductServlet?method=findAll");
     }
 
     private void update(HttpServletRequest request, HttpServletResponse response) throws IOException {
